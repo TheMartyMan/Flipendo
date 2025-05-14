@@ -16,6 +16,6 @@
 
 ## Használt technológiák
 
-- **Kotlin**
-- **Room**
-- **PhotoView**
+- **Kotlin** (app)
+- **Room** (adatbázis)
+- **PhotoView** (PDF nagyítás)
