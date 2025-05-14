@@ -1,6 +1,5 @@
 # Flipendo
 
----
 
 ## Tulajdonságok
 
