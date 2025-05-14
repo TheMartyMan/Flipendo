@@ -1,0 +1,38 @@
+<resources>
+    <!-- Téma beállítások -->
+    <string-array name="theme_entries">
+        <item>Világos</item>
+        <item>Sötét</item>
+        <item>AMOLED</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>amoled</item>
+    </string-array>
+
+    <!-- Accent szín beállítások -->
+    <string-array name="accent_entries">
+        <item>Kék</item>
+        <item>Piros</item>
+        <item>Zöld</item>
+        <item>Narancs</item>
+    </string-array>
+    <string-array name="accent_values">
+        <item>blue</item>
+        <item>red</item>
+        <item>green</item>
+        <item>orange</item>
+    </string-array>
+
+    <!-- Lapozási irány -->
+    <string-array name="orientation_entries">
+        <item>Oldalirányú</item>
+        <item>Függőleges</item>
+    </string-array>
+    <string-array name="orientation_values">
+        <item>horizontal</item>
+        <item>vertical</item>
+    </string-array>
+
+</resources>

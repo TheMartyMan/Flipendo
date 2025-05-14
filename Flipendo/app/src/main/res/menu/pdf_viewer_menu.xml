@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_fullscreen"
+        android:title="@string/fullscreen"
+        android:checkable="true"
+        android:checked="false" />
+
+    <item
+        android:id="@+id/action_zoom"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/zoom" />
+</menu>

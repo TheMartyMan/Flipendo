@@ -1,0 +1,6 @@
+<resources>
+    <color name="accentRed">#FF0B00</color>
+    <color name="accentBlue">#008FFF</color>
+    <color name="accentGreen">#4CAF50</color>
+    <color name="accentOrange">#FF9500</color>
+</resources>

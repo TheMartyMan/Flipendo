@@ -1,0 +1,48 @@
+<resources>
+    <!-- Téma beállítások -->
+    <string-array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>AMOLED</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>amoled</item>
+    </string-array>
+
+    <!-- Accent szín beállítások -->
+    <string-array name="accent_entries">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Orange</item>
+    </string-array>
+    <string-array name="accent_values">
+        <item>blue</item>
+        <item>red</item>
+        <item>green</item>
+        <item>orange</item>
+    </string-array>
+
+    <!-- Lapozási irány -->
+    <string-array name="orientation_entries">
+        <item>Horizontal</item>
+        <item>Vertical</item>
+    </string-array>
+    <string-array name="orientation_values">
+        <item>horizontal</item>
+        <item>vertical</item>
+    </string-array>
+
+
+    <!-- Nyelv -->
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Magyar</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>en</item>
+        <item>hu</item>
+    </string-array>
+</resources>

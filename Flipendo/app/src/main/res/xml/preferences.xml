@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/theme_category">
+        <ListPreference
+            android:key="theme"
+            android:title="@string/theme"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="light"
+            android:summary="%s" />
+        <ListPreference
+            android:key="accent_color"
+            android:title="@string/accent"
+            android:entries="@array/accent_entries"
+            android:entryValues="@array/accent_values"
+            android:defaultValue="red"
+            android:summary="%s" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pdf_category">
+        <ListPreference
+            android:key="page_orientation"
+            android:title="@string/page_direction"
+            android:entries="@array/orientation_entries"
+            android:entryValues="@array/orientation_values"
+            android:defaultValue="horizontal"
+            android:summary="%s" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/app_category">
+        <ListPreference
+            android:key="language"
+            android:title="@string/language"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:defaultValue="hu" />
+
+        <Preference
+            android:key="app_version"
+            android:title="@string/app_version"
+            android:summary="" />
+    </PreferenceCategory>
+</PreferenceScreen>

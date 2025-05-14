@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Flipendo</string>
+    <string name="nav_header_title">Flipendo</string>
+    <string name="add_book">Adj hozzá új könyvet a + gomb segítségével</string>
+    <string name="history_empty">A hozzáadott könyvek itt fognak megjelenni</string>
+    <string name="history_menu_clear">Előzmények törlése</string>
+    <string name="nav_header_subtitle">Minden könyvnek van egy története</string>
+    <string name="nav_header_desc">Navigációs fejléc</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="page_direction">"Lapozási irány"</string>
+    <string name="theme">"Téma"</string>
+    <string name="accent">"Kiemelő szín"</string>
+    <string name="menu_home">Kezdőlap</string>
+    <string name="menu_history">Legutóbbi</string>
+    <string name="fullscreen">Teljes képernyős mód</string>
+    <string name="zoom">Nagyítás engedélyezése</string>
+    <string name="open_error">A fájl megnyitása sikertelen volt. Lehet, hogy áthelyezték, vagy törölték.</string>
+    <string name="theme_category">Megjelenés</string>
+    <string name="pdf_category">PDF</string>
+    <string name="language">Nyelv</string>
+    <string name="app_category">Alkalmazás</string>
+    <string name="app_version">Verzió</string>
+</resources>

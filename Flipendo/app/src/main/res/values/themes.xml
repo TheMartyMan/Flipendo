@@ -1,0 +1,121 @@
+<resources>
+    <!-- Világos piros Téma -->
+    <style name="Theme.Flipendo.Light.Red" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/accentRed</item>
+        <item name="colorSecondary">@color/accentRed</item>
+    </style>
+
+    <!-- Világos kék téma -->
+    <style name="Theme.Flipendo.Light.Blue" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/accentBlue</item>
+        <item name="colorSecondary">@color/accentBlue</item>
+    </style>
+
+    <!-- Világos zöld téma -->
+    <style name="Theme.Flipendo.Light.Green" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/accentGreen</item>
+        <item name="colorSecondary">@color/accentGreen</item>
+    </style>
+
+
+    <!-- Világos narancssárga téma -->
+    <style name="Theme.Flipendo.Light.Orange" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/accentOrange</item>
+        <item name="colorSecondary">@color/accentOrange</item>
+    </style>
+
+    <!-- Sötét piros téma -->
+    <style name="Theme.Flipendo.Dark_Red" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="popupMenuStyle">@style/Theme.Flipendo.PopupOverlay.Dark</item>
+        <item name="colorAccent">@color/accentRed</item>
+        <item name="colorPrimary">@color/accentRed</item>
+        <item name="android:windowBackground">#2F2F2F</item>
+        <item name="colorBackgroundFloating">#2F2F2F</item>
+    </style>
+
+
+    <!-- Sötét kék téma -->
+    <style name="Theme.Flipendo.Dark_Blue" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="popupMenuStyle">@style/Theme.Flipendo.PopupOverlay.Dark</item>
+        <item name="colorAccent">@color/accentBlue</item>
+        <item name="colorPrimary">@color/accentBlue</item>
+        <item name="android:windowBackground">#2F2F2F</item>
+        <item name="colorBackgroundFloating">#2F2F2F</item>
+    </style>
+
+    <!-- Sötét zöld téma -->
+    <style name="Theme.Flipendo.Dark_Green" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="popupMenuStyle">@style/Theme.Flipendo.PopupOverlay.Dark</item>
+        <item name="colorAccent">@color/accentGreen</item>
+        <item name="colorPrimary">@color/accentGreen</item>
+        <item name="android:windowBackground">#2F2F2F</item>
+        <item name="colorBackgroundFloating">#2F2F2F</item>
+    </style>
+
+
+    <!-- Sötét narancssárga téma -->
+    <style name="Theme.Flipendo.Dark_Orange" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="popupMenuStyle">@style/Theme.Flipendo.PopupOverlay.Dark</item>
+        <item name="colorAccent">@color/accentOrange</item>
+        <item name="colorPrimary">@color/accentOrange</item>
+        <item name="android:windowBackground">#2F2F2F</item>
+        <item name="colorBackgroundFloating">#2F2F2F</item>
+    </style>
+
+
+    <!-- Fekete piros téma -->
+    <style name="Theme.Flipendo.AMOLED_Red" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="popupMenuStyle">@style/Theme.Flipendo.PopupOverlay.AMOLED</item>
+        <item name="colorAccent">@color/accentRed</item>
+        <item name="colorPrimary">@color/accentRed</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="colorBackgroundFloating">#000000</item>
+    </style>
+
+    <!-- Fekete kék téma -->
+    <style name="Theme.Flipendo.AMOLED_Blue" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="popupMenuStyle">@style/Theme.Flipendo.PopupOverlay.AMOLED</item>
+        <item name="colorAccent">@color/accentBlue</item>
+        <item name="colorPrimary">@color/accentBlue</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="colorBackgroundFloating">#000000</item>
+    </style>
+
+
+    <!-- Sötét zöld téma -->
+    <style name="Theme.Flipendo.AMOLED_Green" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="popupMenuStyle">@style/Theme.Flipendo.PopupOverlay.AMOLED</item>
+        <item name="colorAccent">@color/accentGreen</item>
+        <item name="colorPrimary">@color/accentGreen</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="colorBackgroundFloating">#000000</item>
+    </style>
+
+    <!-- Fekete narancssárga téma -->
+    <style name="Theme.Flipendo.AMOLED_Orange" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="popupMenuStyle">@style/Theme.Flipendo.PopupOverlay.AMOLED</item>
+        <item name="colorAccent">@color/accentOrange</item>
+        <item name="colorPrimary">@color/accentOrange</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="colorBackgroundFloating">#000000</item>
+    </style>
+
+
+    <!-- Egyéb témák -->
+    <!-- PopupMenu overlayek -->
+
+    <!-- Fehér alapon fekete szöveg -->
+    <style name="Theme.Flipendo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- Sötét alapon fehér szöveg -->
+    <style name="Theme.Flipendo.PopupOverlay.Dark" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:popupBackground">#2F2F2F</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+    <!-- Fekete alapon fehér szöveg -->
+    <style name="Theme.Flipendo.PopupOverlay.AMOLED" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="android:popupBackground">#000000</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+</resources>

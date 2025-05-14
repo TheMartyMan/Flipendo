@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Flipendo</string>
+    <string name="nav_header_title">Flipendo</string>
+    <string name="add_book">Add a book by using the + button</string>
+    <string name="history_empty">New books will show up here</string>
+    <string name="history_menu_clear">Clear recents</string>
+    <string name="nav_header_subtitle">Every book has its own story.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="page_direction">"Page direction"</string>
+    <string name="theme">Theme</string>
+    <string name="accent">Accent</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_history">Recents</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="zoom">Zoom</string>
+    <string name="open_error">The file could not be opened. It may have been moved or deleted.</string>
+    <string name="theme_category">Appearance</string>
+    <string name="pdf_category">PDF</string>
+    <string name="language">Language</string>
+    <string name="app_category">App</string>
+    <string name="app_version">Version</string>
+</resources>
